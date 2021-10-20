@@ -35,7 +35,7 @@ public class SendKudos extends base {
 		aP.clickSendkudos().click();
 		Sendkudospage kudos = new Sendkudospage(driver);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		kudos.getEmailInKudosSearch().sendKeys("harshini.iyli@qualitestgroup.com");
+		kudos.getEmailInKudosSearch().sendKeys("chandana.rm@qualitestgroup.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.findElement(By.xpath("//input[@id='email_address']")).sendKeys(Keys.ARROW_DOWN,Keys.RETURN);
